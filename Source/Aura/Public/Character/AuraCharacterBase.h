@@ -16,4 +16,8 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
+	// TObjectPtr - "lazy" pointer, init. / access stored object when it is being in use 
+	UPROPERTY(EditAnywhere, Category="Combat")
+	TObjectPtr<USkeletalMeshComponent> Weapon;
 };
