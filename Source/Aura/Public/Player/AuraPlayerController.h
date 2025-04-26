@@ -8,7 +8,7 @@
 
 
 class UInputMappingContext;
-class UIInputAction;
+class UInputAction;
 struct FInputActionValue;
 
 /**
